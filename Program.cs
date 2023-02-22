@@ -24,6 +24,13 @@
 
                     if (pin == reelPin) break;
 
-                }
+                    if (i == pinBloke)
+                    {
+                        Console.WriteLine("Pin Kodunuz Bloke Oldu...");
+                        for (int j = 1; j <= pukBloke; j++)
+                        {
+                            Console.Write("Lütfen Puk Kodunu Girin : ");
+                            puk = Convert.ToInt32(Console.ReadLine());
+                        }
             }
 }
