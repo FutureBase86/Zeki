@@ -13,6 +13,17 @@
 
             Console.Write("Lütfen Pin Kodunu Girin : ");
             pin = Convert.ToInt32(Console.ReadLine());
-        }
-    }
+
+            while (pin != reelPin)
+            {
+
+                for (int i = 2; i <= pinBloke; i++)
+                {
+                    Console.Write("Lütfen Pin Kodunu Girin : ");
+                    pin = Convert.ToInt32(Console.ReadLine());
+
+                    if (pin == reelPin) break;
+
+                }
+            }
 }
