@@ -32,5 +32,16 @@
                             Console.Write("Lütfen Puk Kodunu Girin : ");
                             puk = Convert.ToInt32(Console.ReadLine());
                         }
-            }
+                        if (j >= 10)
+                        {
+                            Console.WriteLine("Puk Kodunuz Bloke OLdu...\nLütfen Müşteri Hizmetleri İle İletişime Geçiniz.");
+                            Console.Write("Müşteri Temsilcisi Onay Kodu : ");
+                            onayKodu = Convert.ToInt32(Console.ReadLine());
+                            if (onayKodu != musteriTemsilcisiOnayKodu)
+                            {
+                                Console.WriteLine("Sistem Kilitlendi...");
+                                break;
+                            }
+                        }
+                    }
 }
