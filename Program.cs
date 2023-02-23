@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hazırlayan AlpayCa");
+            Console.WriteLine("Hazırlayan Sedat");
             Console.WriteLine("Şifre Kontrol Programı... ");
 
             int reelPin = 1144, reelPuk = 1122334455, pin, yeniPin, puk,
